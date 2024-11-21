@@ -1,0 +1,429 @@
+<!DOCTYPE html><html lang="es"><head>
+	<base href="https://data.finanzas.cdmx.gob.mx/Front_ten/"/><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/><meta name="ROBOTS" content="NOINDEX, NOFOLLOW"/><!-- CSRF Token -->
+	<title>Sistema de Tenencia</title>
+	<!-- Styles -->
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/app.css" rel="stylesheet" type="text/css"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/login/animate.css" rel="stylesheet" type="text/css"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/carousel/carousel.css" rel="stylesheet" type="text/css"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/smt-bootstrap.css" rel="stylesheet" type="text/css"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/login/styles-login.css" rel="stylesheet" type="text/css"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/menu/menu.css" rel="stylesheet" type="text/css"/>
+	<link href="https://data.finanzas.cdmx.gob.mx/Front_ten/css/jquery-confirm.min.css" rel="stylesheet" type="text/css"/><script src="https://www.google.com/recaptcha/api.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,400italic,500,700,700italic,900" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-default navbar-static-top" href="#navbar" id="navbar"><!-- Sociales -->
+<div class="container">
+<div class="col-lg-12 right-side" id="sociales">
+<div class="grow-facebook inline col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+
+<div class="grow-twitter inline col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+
+<div class="grow-youtube inline col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+</div>
+<!-- Brand -->
+
+<div id="brand">
+<div class="row">
+<table>
+	<tbody>
+		<tr>
+			<td><a class="navbar-brand col-md-6 col-xs-12" href="http://www.finanzas.cdmx.gob.mx/"><img class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/LOGO SAF 2021-01.png" style="margin-top:-4%;" width="100%"/></a></td>
+			<!--  
+						<td><img src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/Logo_CDMX_alt.png" class="img-responsive" width="100%"></td>
+						<td><img src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/Logo_Dependencia_alt.png.jfif" class="img-responsive" width="100%"></td>
+                        -->
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- Buttons -->
+
+<div class="container">
+<div id="buttons">
+<div class="row"><!-- Collapsed Hamburger --><button class="navbar-toggle collapsed" data-target="#app-navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle Navigation</span></button><!-- Hamburger -->
+
+<div class="collapse navbar-collapse" id="app-navbar-collapse"><!-- Left Side Of Navbar -->
+<ul class="nav navbar-nav">
+	<li> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+
+<div class="container" id="login-full">
+<div class="row">
+<div class="col-md-8  col-md-offset-2 text-right panel-heading">
+<h4><!-- --><strong>Programa de corrección de datos y registros duplicados taxi <a href="https://data.finanzas.cdmx.gob.mx/Front_ten_taxi" target="_blank"><span onmouseout="this.style.backgroundColor=&#39;green&#39;; this.style.textDecoration=&#39;none&#39;;" onmouseover="this.style.backgroundColor=&#39;red&#39;; this.style.textDecoration=&#39;none&#39;;" style="border: 3px outset red; background-color: green; color: white; text-align: center; padding:10px; text-decoration:none; border-radius: 25%;">Clic aquí</span></a></strong> <!-- --></h4>
+</div>
+</div>
+
+<div class="row"><!-- <div class="col-md-8  col-md-offset-2 text-center panel-heading">
+    	<h4>
+    		<a target="_blank" href="https://data.finanzas.cdmx.gob.mx/Front_ten_taxi"><strong>Programa de corrección de datos y registros duplicados taxi <span style="border: 3px outset red; background-color: green; color: white; text-align: center; padding:10px; text-decoration:none; border-radius: 25%;" onmouseover="this.style.backgroundColor = 'red';" onmouseout="this.style.backgroundColor = 'green';">Clic aquí</span></strong></a>
+    	</h4>
+    </div> -->
+<div class="col-md-8  col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading" id="login-head">
+<center><strong>Tenencia</strong></center>
+</div>
+
+<div class="panel-body" id="login-body">
+<form action="" id="tenencia" method="post"><input name="__original_url" type="hidden" value="https://data.finanzas.cdmx.gob.mx/Front_ten/inicio"/>
+<div class="row">
+<div class="col-md-4  col-xs-12"><label class="control-label " for="placa">Placa (Sin espacios ni guiones)</label></div>
+
+<div class="col-md-8 col-xs-12">
+<div class="input-group">
+<div class="input-group-addon"> </div>
+<input class="form-control" id="placa" name="placa" placeholder="Introduce tu Placa" style="text-transform: uppercase" type="text"/></div>
+</div>
+</div>
+ 
+
+<div class="row">
+<div class="col-md-4  col-xs-12"><label class="control-label text-right" for="ejercicio">Ejercicio</label></div>
+
+<div class="col-md-8 col-xs-12"><select class="form-control" id="ejercicio" name="ejercicio"><option selected="selected" value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option> </select></div>
+ 
+
+<div id="spinner"> </div>
+</div>
+<br/>
+<!-- <div class="row">
+						<div class="col-md-4  col-xs-12">
+							<label for="captcha" class="control-label ">Captcha</label>
+						</div>
+						<div class="col-md-5 col-xs-12">
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-cc" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="captcha" name="captcha" placeholder="INTRODUCE EL CAPTCHA">
+							</div>
+							<br>
+							<script>
+                            function recargar_captcha(){
+                            	$.ajax({
+                            		  method: "get",
+                            		  url: "https://data.finanzas.cdmx.gob.mx/Front_ten/inicio/refresh_captcha"
+                            		})
+                            		  .done(function( msg ) {
+                            			  $('#recaptcha').html(msg);
+                            		  });
+                            };
+                            </script>
+                            <a href="javascript: recargar_captcha();" class="refreshCaptcha">Recargar</a>
+							<div class="recaptcha" id="recaptcha"><img  src="https://data.finanzas.cdmx.gob.mx/Front_ten/captcha-images/1732202275.2259.jpg" style="width: 170px; height: 50px; border: 0;" alt=" " /></div>
+													</div>
+					</div> --><br/>
+<!-- SE COMENTARON PARA CONDONACION
+			    <div class="row">
+			    	<div class="col-md-8 col-md-offset-4 text-center">
+			    		 <div class="g-recaptcha" data-sitekey="6LdF3BoUAAAAAIicTjc0LAaUefwcHM7iwf2r-SRa"></div>
+			    		 			    	</div>
+			    </div>
+			    --> <!--  
+			    	<div class="row">
+        		    	<div class="col-md-8 col-md-offset-4 text-center">
+        		    		 <div class="g-recaptcha" data-sitekey="6LdF3BoUAAAAAIicTjc0LAaUefwcHM7iwf2r-SRa"></div>
+        		    		         		    	</div>
+        		    </div>
+        		    -->
+<div class="row">
+<div class="col-md-12 col-xs-12 text-center"><!--
+							<a href="https://data.finanzas.cdmx.gob.mx/formato_lc/proteccion_datos/tenencia.html">LEYENDA DE PROTECCIÓN DE DATOS PERSONALES</a>
+							--><a href="https://servidoresx3.finanzas.cdmx.gob.mx/formato_lc/proteccion_datos/tenencia.html">LEYENDA DE PROTECCIÓN DE DATOS PERSONALES</a></div>
+</div>
+ 
+
+<div class="row">
+<div class="col-md-12 col-xs-12 text-center"> </div>
+</div>
+ 
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-12"><button class="btn btn-primary" id="btn" name="btn" type="submit">Consultar</button></div>
+</div>
+</div>
+
+<div class="row">-------</div>
+<!-- SE AGREGA PARA PROGRAMA DE CONDONACION --> <input id="pago_meses" name="pago_meses" type="hidden" value="no"/> <!--------------------------------------------> <input name="tenencia" type="hidden" value="JksP94bp8u1vZHQNqhUuiaGIPbFOtHCvZ9q2l/Ljo3lUqTnhUNgkBTG+78L3QiwC"/> </form>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	var spinner = document.getElementById('spinner');
+	var btn = document.getElementById('btn');
+	
+	if(btn){
+		btn.addEventListener('click', function(){
+        	var load_img = '<center><img src="https://data.finanzas.cdmx.gob.mx/Front_ten//imagenes/spinner.svg" height="150" width="150"></center>';
+        	spinner.innerHTML = load_img;
+        	})
+    	}
+</script>
+
+<div class="row">
+<div class="col-md-8  col-md-offset-2 col-xs-12  col-lg-8 col-lg-offset-2">
+<div>
+<div>
+<center><strong>Pago vía Internet a través de los siguientes portales Bancarios (Para cuentahabientes de dichos bancos)</strong></center>
+</div>
+
+<div class="panel-body">
+<div class="row">
+<div class="col-md-3 col-xs-6"><a href="https://boveda.banamex.com.mx/serban/" target="_blank"><img alt="Banamex" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/banamex.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.bancomer.com/" target="_blank"><img alt="Bancomer" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/BBVA_logo.png"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.hsbc.com.mx/" target="_blank"><img alt="Hsbc" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/hsbc.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.mifel.com.mx/" target="_blank"><img alt="Mifel" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/bancamifel.svg"/></a></div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-xs-6"><a href="https://paymentsportal.americanexpress.com" target="_blank"><img alt="American Express" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/americanexpress.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.bancoinbursa.com" target="_blank"><img alt="Inbursa" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/inbursa.png"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="https://www.scotiabank.com.mx/" target="_blank"><img alt="CIBanco" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/Logo_Scotiabank_19.png"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.bancoazteca.com/" target="_blank"><img alt="Banco Azteca" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/banco_azteca.png"/></a></div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-xs-6"><a href="http://www.banjercito.com.mx" target="_blank"><img alt="Banjercito" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/Logo_Banjercito.png"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.afirme.com.mx" target="_blank"><img alt="Afirme" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/afirme.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.multiva.com.mx" target="_blank"><img alt="Multiva" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/multiva.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.bam.com.mx/" target="_blank"><img alt="BAM Mi Banco" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/Autofin.png"/></a></div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-xs-6"><a href="http://www.cibanco.com" target="_blank"><img alt="CIBanco" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/cibanco.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.banorte.com" target="_blank"><img alt="Banorte" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/banorte.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.bancoppel.com/" target="_blank"><img alt="Bancoppel" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/bancoppel.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"><a href="http://www.santander.com.mx/mx/home/" target="_blank"><img alt="Santander" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/santander_logo.png"/></a></div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-xs-6">
+<center><a href="https://www.banregio.com/" target="_blank"><img alt="Banregio" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/banregio.png" width="120"/></a></center>
+</div>
+
+<div class="col-md-3 col-xs-6"><a href="https://www.bankofamerica.com/" target="_blank"><img alt="BankOfAmerica" class="img-responsive" src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/bancos/LOGO_BOFA.svg"/></a></div>
+
+<div class="col-md-3 col-xs-6"> </div>
+
+<div class="col-md-3 col-xs-6"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<div class="row" id="panels">
+<div class="container">
+<div class="col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading" id="pane11">
+<h4 class="atencion">Atención Ciudadana</h4>
+</div>
+
+<div class="panel-body text-left" id="sefin-data"><img src="https://data.finanzas.cdmx.gob.mx/Front_ten//imagenes/Logo_Generico_F.png" width="90%"/><br/>
+ 
+<p> </p>
+
+<h4 class="address"><strong>Dirección:</strong> Calle Doctor Lavista 144, Colonia Doctores, Delegación Cuautémoc, C.P. 06720, Ciudad de México.</h4>
+
+<p> </p>
+ 
+
+<p> </p>
+
+<h4><a class="sitio" href="https://data.finanzas.cdmx.gob.mx/ssac/index.php">Sitio de Atención y Orientación Ciudadana</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4 class="phone"><strong>Teléfono:</strong> 55 88 33 88</h4>
+
+<p> </p>
+ 
+
+<p> </p>
+
+<h4 class="redes"><strong>Nuestras Redes Sociales:</strong></h4>
+
+<p> </p>
+ 
+
+<div class="grow-facebook inline center col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+
+<div class="grow-twitter inline col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+
+<div class="grow-youtube inline col-xs-4 col-sm-4 col-md-4 col-lg-4"> </div>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading" id="pane12">
+<h4 class="navegacion">Navegación</h4>
+</div>
+
+<div class="panel-body text-center" id="sefin-menu">
+<p> </p>
+
+<h4><a class="start" href="http://www.finanzas.cdmx.gob.mx">Inicio</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="secretary" href="http://www.finanzas.cdmx.gob.mx/secretaria">Secretaria</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="services" href="http://www.finanzas.cdmx.gob.mx/servicios">Servicios</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="programs" href="http://www.finanzas.cdmx.gob.mx/programas">Programas</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="comunication" href="http://www.finanzas.cdmx.gob.mx/comunicacion">Comunicación</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="call-back" href="http://www.finanzas.cdmx.gob.mx/convocatorias/licitaciones">Convocatorias</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="notify" href="http://www.finanzas.cdmx.gob.mx/notificaciones">Notificaciones</a></h4>
+
+<p> </p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading" id="pane13">
+<h4 class="relacionado">Sitios Relacionados</h4>
+</div>
+
+<div class="panel-body text-center" id="sefin-rel">
+<p> </p>
+
+<h4><a class="gaceta" href="http://www.data.consejeria.cdmx.gob.mx/index.php/gaceta">Gaceta Oficial de la Ciudad de México</a></h4>
+
+<p> </p>
+
+<p> </p>
+
+<h4><a class="fidere" href="http://www.fidere3.df.gob.mx/">Fidere</a></h4>
+
+<p> </p>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading" id="pane14">
+<h4 class="organismo">Sitios Externos</h4>
+</div>
+
+<div class="panel-body-anim text-center" id="sefin-sites">
+<div class="vue"><a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/ventanillas_unicas_delegacionales_vud_aacs"><img src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/580128dea7026667818767.jpg" style="margin-top: 25px"/></a>
+
+<p> </p>
+</div>
+ 
+
+<div class="cesac"><a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/directorio_de_responsables_de_cesac"><img src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/580128f5e33c2758405372.jpg"/></a></div>
+ 
+
+<div class="contract"><a href="http://www.contratosabiertos.cdmx.gob.mx/"><img src="https://data.finanzas.cdmx.gob.mx/Front_ten/imagenes/58012910957f4894488245.jpg"/></a></div>
+</div>
+</div>
+</div>
+
+<div class="col-xs-12" id="copyright"> </div>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="https://data.finanzas.cdmx.gob.mx/Front_ten/js/login/main.js" type="text/javascript"></script><script src="https://data.finanzas.cdmx.gob.mx/Front_ten/js/login/jquery.easing.min.js" type="text/javascript"></script><script src="https://data.finanzas.cdmx.gob.mx/Front_ten/js/login/jquery.scrollTo.js" type="text/javascript"></script><script src="https://data.finanzas.cdmx.gob.mx/Front_ten/js/jquery-confirm.min.js" type="text/javascript"></script><!-- CONDONACION 2018--><script>
+
+	$("#btn").click(function(e) {
+		e.preventDefault();
+		var frm = $('#tenencia');
+		$.ajax({
+			type: 'POST',
+			url: 'https://data.finanzas.cdmx.gob.mx/Front_ten/inicio/showPop',
+			data: frm.serialize(),
+			dataType: 'json',
+			success: function (data) {
+
+				console.log(data);
+				//console.log("entro"); Borrar
+				if(data.error === 1){
+					$.confirm({
+						title: 'Programa de Condonación',
+						type: 'orange',
+						content: 'Acepto que no he interpuesto ningún recurso o medio de defensa en contra de la procedencia del cobro de créditos fiscales, ni he solicitado disminución alguna; o en su caso, me he desistido de dichas acciones.',
+						buttons: {
+							confirm:{
+								text: 'Aceptar',
+								action: function () {
+									frm.submit();
+								}
+							}
+						}
+					});
+				}else{
+					frm.submit();
+				}
+			}
+			beforeSend: 'Access-Control-Allow-Origin:*'
+		});
+	});
+</script><!-- CONDONACION 2018-->
+
+</body></html>
